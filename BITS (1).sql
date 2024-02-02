@@ -1,19 +1,6 @@
-USE erik_aune;
+CREATE DATABASE BITS;
 
-SHOW TABLES;
-
-CREATE TABLE students(age int, height float, city varchar (255));
-
-DROP TABLE students;
-
-DESCRIBE TABLE students;
-
-INSERT INTO students (age, height, city) VALUES ('10','5.11','LA');
-
-SELECT * 
-FROM erik_aune.students;
-
-USE bits;
+USE BITS;
 
 CREATE TABLE Consultant (
     ConsltNum CHAR(2) PRIMARY KEY,
@@ -274,5 +261,5 @@ VALUES
 ('68979','DA11','2018-09-27',970.00)
 ;
 
-SHOW TABLES;
+
 
